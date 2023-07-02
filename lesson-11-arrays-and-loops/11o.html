@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <script>
+      let myWords = ['hello', 'world', 'search', 'good'];
+
+      let index = -1;
+
+      for (let i = 0; i < myWords.length; i++) {
+        if (myWords[i] === 'search') {
+          index = i;
+        }
+      }
+
+      console.log(index);
+
+      myWords = ['not', 'found'];
+      index = -1;
+
+      for (let i = 0; i < myWords.length; i++) {
+        if (myWords[i] === 'search') {
+          index = i;
+        }
+      }
+
+      console.log(index);
+    </script>
+  </body>
+</html>
